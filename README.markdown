@@ -1,10 +1,10 @@
 memcached_lock
-~~~~~~~~~~~~~~
+-----
 
 Implements a distributed transaction using memcached or
 a memcached compatible storage.
 
-Example::
+Example:
 
     from __future__ import with_statement
     import memcache
@@ -14,5 +14,6 @@ Example::
     with dist_lock('test', client):
         print 'Is there anybody out there!?'
 
-Copyright 2010 amix the lucky stiff
+© 2010 amix the lucky stiff
+
 License BSD
